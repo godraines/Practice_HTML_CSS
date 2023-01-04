@@ -14,6 +14,7 @@
       src="https://kit.fontawesome.com/2d323a629b.js"
       crossorigin="anonymous"
     ></script>
+    <script src="main.js" defer></script>
   </head>
   <body>
     <!-- Header -->
@@ -33,82 +34,113 @@
       <video controls src="https://youtu.be/6lH-6Y805L4"></video>
     </section>
 
-    <!-- Video Info -->
-    <section class="info">
-      <!-- Metadata -->
-      <div class="metadata">
-        <ul class="hashtags">
-          <li>#ABC</li>
-          <li>#BBC</li>
-          <li>#CNN</li>
-        </ul>
-        <div class="titleAndButton">
-          <span class="title">HTML practicing with YouTube</span>
-        </div>
-        <button class="moreBtn">
-          <i class="fas fa-caret-down"></i>
-        </button>
-        <div class="view">
+    <div class="infoANdUpNext">
+      <!-- Video Info -->
+      <section class="info">
+        <!-- Metadata -->
+        <div class="metadata">
+          <ul class="hashtags">
+            <li>#ABC</li>
+            <li>#BBC</li>
+            <li>#CNN</li>
+          </ul>
+          <div class="titleAndButton">
+            <span class="title clamp">
+              HTML practicing with YouTube, HTML 완벽 가이드, 누구나 할 수 있다,
+              한달만에 HTML CSS 마스터하기, 프론트엔드 개발자 되기, 소프트웨어
+              엔지니어, 웹 디벨로퍼 되는 방법, IT 취직, 개발자로 취직하기,
+              개발자 포트폴리오 만들기, 포트폴리오 소스, 클론 코딩.
+            </span>
+            <button class="moreBtn">
+              <i class="fas fa-caret-down"></i>
+            </button>
+          </div>
           <span class="views">1M views 1 month ago</span>
         </div>
-      </div>
-      <!-- Actions -->
-      <div class="actions">
-        <li>
-          <button><i class="fas fa-thumbs-up"></i><span>1K</span></button>
-        </li>
-        <li>
-          <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
-        </li>
-        <li>
-          <button><i class="fas fa-share"></i><span>Share</span></button>
-        </li>
-        <li>
-          <button><i class="fas fa-plus"></i><span>Save</span></button>
-        </li>
-        <li>
-          <button>
-            <i class="fab fa-font-awesome-flag"></i><span>Report</span>
-          </button>
-        </li>
-      </div>
-      <!-- Channel description -->
-      <div class="channel">
-        <div class="metadata">
-          <img src="image/avatar.png" alt="" />
-          <div class="info">
-            <span class="name">HTML Warrior</span>
-            <span class="subscribers">2K Subscribers</span>
+        <!-- Actions -->
+        <ul class="actions">
+          <li>
+            <button>
+              <i class="active fas fa-thumbs-up"></i><span>1K</span>
+            </button>
+          </li>
+          <li>
+            <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-share"></i><span>Share</span></button>
+          </li>
+          <li>
+            <button><i class="fas fa-plus"></i><span>Save</span></button>
+          </li>
+          <li>
+            <button>
+              <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+            </button>
+          </li>
+        </ul>
+        <!-- Channel description -->
+        <div class="channel">
+          <div class="metadata">
+            <img src="image/avatar.png" alt="" />
+            <div class="info">
+              <span class="name">HTML Warrior</span>
+              <span class="subscribers">2K Subscribers</span>
+            </div>
           </div>
+          <button class="subscribe">Subscribe</button>
         </div>
-        <button class="subscribe">Subscribe</button>
-      </div>
-    </section>
-    <section class="UpNext">
-      <span class="title">Up Next</span>
-      <ul>
-        <li class="item">
-          <img src="image/1.png" alt="" />
-          <div class="info">
-            <span class="title">HTML learning class</span>
-            <span class="name">Become FE</span>
-            <span class="views">1K views</span>
-          </div>
-          <div class="moreBtn"><i class="fas fa-ellipsis-v"></i></div>
-        </li>
-        <li class="item">
-          <span class="title">CSS learning class</span>
-          <span class="name">Become FE</span>
-          <span class="views">2K views</span>
-          <div class="moreBtn"><i class="fas fa-ellipsis-v"></i></div>
-        </li>
-        <li class="item">
-          <span class="title">Javascript learning class</span>
-          <span class="name">Become FE</span>
-          <span class="views">3K views</span>
-          <div class="moreBtn"><i class="fas fa-ellipsis-v"></i></div>
-        </li>
-      </ul>
-    </section>
+      </section>
+      <section class="UpNext">
+        <span class="title">Up Next</span>
+        <ul>
+          <li class="item">
+            <div class="img"><img src="image/1.png" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >HTML practicing with YouTube, HTML 완벽 가이드, 누구나 할 수
+                있다, 한달만에 HTML CSS 마스터하기, 프론트엔드 개발자 되기,
+                소프트웨어 엔지니어, 웹 디벨로퍼 되는 방법, IT 취직, 개발자로
+                취직하기, 개발자 포트폴리오 만들기, 포트폴리오 소스, 클론
+                코딩.</span
+              >
+              <span class="name">Become FE</span>
+              <span class="views">1K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/2.png" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >HTML practicing with YouTube, HTML 완벽 가이드, 누구나 할 수
+                있다, 한달만에 HTML CSS 마스터하기, 프론트엔드 개발자 되기,
+                소프트웨어 엔지니어, 웹 디벨로퍼 되는 방법, IT 취직, 개발자로
+                취직하기, 개발자 포트폴리오 만들기, 포트폴리오 소스, 클론
+                코딩.</span
+              >
+              <span class="name">Become FE</span>
+              <span class="views">2K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+          <li class="item">
+            <div class="img"><img src="image/3.png" alt="" /></div>
+            <div class="info">
+              <span class="title"
+                >HTML practicing with YouTube, HTML 완벽 가이드, 누구나 할 수
+                있다, 한달만에 HTML CSS 마스터하기, 프론트엔드 개발자 되기,
+                소프트웨어 엔지니어, 웹 디벨로퍼 되는 방법, IT 취직, 개발자로
+                취직하기, 개발자 포트폴리오 만들기, 포트폴리오 소스, 클론
+                코딩.</span
+              >
+              <span class="name">Become FE</span>
+              <span class="views">3K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
   </body>
 </html>
